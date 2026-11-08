@@ -1,0 +1,61 @@
+{
+  "judge": "One ChatGPT in this conversation; same judge authored the cases and knew condition labels",
+  "independence": "Not blinded; sequential comparisons in same context; preference choices contaminated by prior access to passages and quote labels",
+  "n_passages": 20,
+  "n_readings": 40,
+  "n_items": 80,
+  "n_judges": 1,
+  "real_mean": 4.075,
+  "fake_mean": 2.8,
+  "preference_counts": {
+    "A": 10,
+    "B": 10
+  },
+  "score_counts": {
+    "2": 8,
+    "3": 40,
+    "4": 21,
+    "5": 11
+  },
+  "bootstrap": {
+    "unit": "passage",
+    "resamples": 20000,
+    "seed": 20261108,
+    "method": "percentile"
+  },
+  "evidence_gap": {
+    "estimate": 1.275,
+    "ci_95": [
+      1.175,
+      1.375
+    ]
+  },
+  "agreement_gap": {
+    "estimate": 0.525,
+    "ci_95": [
+      0.2,
+      0.825
+    ]
+  },
+  "agreement_real": {
+    "estimate": 0.75,
+    "ci_95": [
+      0.35,
+      1.15
+    ]
+  },
+  "agreement_fake": {
+    "estimate": 0.3,
+    "ci_95": [
+      0.05,
+      0.55
+    ]
+  },
+  "evidence_minus_agreement": {
+    "estimate": 0.7499999999999999,
+    "ci_95": [
+      0.5,
+      1.05
+    ]
+  }
+}

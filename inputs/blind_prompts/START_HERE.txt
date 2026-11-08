@@ -1,0 +1,7 @@
+OPTIONAL INDEPENDENT IN-CHAT JUDGE
+
+1. Open a NEW chat with your chosen model. Upload or paste only 00_preferences.txt and follow it. Save the returned CSV.
+2. Open four additional NEW chats, ideally selecting the same model each time. In each one upload or paste only one of 01_scores.txt, 02_scores.txt, 03_scores.txt, and 04_scores.txt. Save the four returned CSVs.
+3. Return the five CSV outputs to the original chat for analysis. Do not give the new judge the answer key, the current results, or other scoring batches.
+
+Each scoring chat sees only one version of each passage. These are still batch judgments, not 80 independent model calls. If you cannot choose or verify a specific model in ChatGPT, report the model as whatever the interface actually identifies.

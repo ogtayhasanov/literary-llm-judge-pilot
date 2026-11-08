@@ -1,0 +1,88 @@
+{
+  "model_label": "Claude Opus 5.5 medium (as reported by user; not independently verified)",
+  "n_judges": 1,
+  "n_passages": 20,
+  "n_tales": 18,
+  "n_preferences": 20,
+  "n_judged_items": 80,
+  "n_exact_quotes": 40,
+  "n_altered_quotes": 40,
+  "rationales_recognizing_exact": 40,
+  "rationales_recognizing_altered": 40,
+  "rationales_unclear_quote_status": 0,
+  "mean_real": 3.725,
+  "mean_fake": 2.6,
+  "preference_counts": {
+    "A": 14,
+    "B": 6
+  },
+  "score_distribution": {
+    "1": 1,
+    "2": 21,
+    "3": 33,
+    "4": 14,
+    "5": 11
+  },
+  "preference_signs_by_passage": {
+    "positive": 16,
+    "zero": 1,
+    "negative": 3
+  },
+  "bootstrap": {
+    "method": "percentile",
+    "resamples": 20000,
+    "passage_seed": 20261108,
+    "story_seed": 20261109
+  },
+  "evidence_gap": {
+    "estimate": 1.125,
+    "ci_95_passage": [
+      0.975,
+      1.275
+    ],
+    "ci_95_story_sensitivity": [
+      0.9736842105263158,
+      1.2619047619047619
+    ]
+  },
+  "agreement_gap": {
+    "estimate": 0.875,
+    "ci_95_passage": [
+      0.375,
+      1.325
+    ],
+    "ci_95_story_sensitivity": [
+      0.3888888888888889,
+      1.3421052631578947
+    ]
+  },
+  "agreement_real": {
+    "estimate": 1.25,
+    "ci_95_passage": [
+      0.55,
+      1.85
+    ],
+    "ci_95_story_sensitivity": [
+      0.5789473684210527,
+      1.8888888888888888
+    ]
+  },
+  "agreement_fake": {
+    "estimate": 0.5,
+    "ci_95_passage": [
+      0.15,
+      0.85
+    ],
+    "ci_95_story_sensitivity": [
+      0.13043478260869565,
+      0.8888888888888888
+    ]
+  },
+  "evidence_minus_agreement": {
+    "estimate": 0.25,
+    "ci_95_passage": [
+      -0.20000000000000018,
+      0.7500000000000001
+    ]
+  }
+}

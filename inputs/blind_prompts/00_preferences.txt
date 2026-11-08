@@ -1,0 +1,102 @@
+Judge preferences only. Do not browse or look up the stories. No passage or quotation is provided in this task. For each question, choose the claim you find more convincing on its own. If you find the two equally convincing, still make a forced choice. Respond with exactly 20 lines in CSV form: case_id,choice (choice must be A or B). Do not score the claims yet.
+
+C101
+Question: What does the preserved flower chiefly sustain?
+A: The flower sustains the traveler's personal bond with the maiden.
+B: The flower sustains the traveler's attachment to his Danish homeland.
+
+C114
+Question: How do the girl's visions function in this passage?
+A: The visions offer the girl a brief source of comfort in the cold.
+B: The visions emphasize how fragile and temporary her comfort is.
+
+C110
+Question: Where does Gerda's power principally come from?
+A: Gerda's strength is demonstrated through the help of the beings she encounters.
+B: Gerda's strength is portrayed as an inward quality grounded in her innocence.
+
+C116
+Question: What chiefly motivates the officer to praise the imaginary cloth?
+A: The officer is chiefly afraid of being exposed as personally incompetent.
+B: The officer is chiefly protecting the material benefits of his office.
+
+C104
+Question: How should the snails' inheritance speech be read?
+A: The speech primarily expresses the parents' affection and concern for their children.
+B: The speech satirizes the family's failure to recognize the danger in its ideal future.
+
+C105
+Question: How should the princess's demand on her attendants be understood?
+A: The princess treats the bargain as a shared sacrifice she is also willing to make.
+B: The princess uses her rank to make her attendants bear a burden they reject.
+
+C115
+Question: What is the main target of the scene's criticism of the collar?
+A: The scene criticizes the collar for ignoring the garter's refusal and personal boundaries.
+B: The scene criticizes the collar chiefly for its false claims of social standing.
+
+C108
+Question: What does the queen's test of the visitor mainly reveal?
+A: The test exposes the physical cruelty behind royal gatekeeping.
+B: The queen is trying to establish whether the visitor truly belongs to the royal family.
+
+C117
+Question: What chiefly shapes Karen's desire for the red shoes?
+A: Karen is drawn chiefly to the shoes' immediate visual beauty.
+B: Karen's desire is shaped by imitating the princess and aristocratic fashion.
+
+C106
+Question: What is the main effect of the old house's animated details?
+A: The house seems to welcome the boy as if it were a living host.
+B: The animation draws attention to the neglected house's dilapidation and overgrowth.
+
+C109
+Question: What view of Denmark does the sequence chiefly emphasize?
+A: The sequence celebrates national history and the continuity of the monarchy.
+B: The sequence celebrates modern development and the improvement of towns.
+
+C107
+Question: What chiefly motivates the watchman's wish to visit the heavens?
+A: The wish expresses dissatisfaction with bodily earthly life.
+B: The wish expresses curiosity about celestial objects.
+
+C111
+Question: Why does the princess accept the shadow's explanation?
+A: Her attraction to the stranger makes her willing to believe his explanation.
+B: Flattery about her eyesight makes the princess trust the shadow's explanation.
+
+C119
+Question: What is the narrator primarily mocking in the discussion of the moon?
+A: The narrator mocks political deference to a supposedly powerful foreign realm.
+B: The narrator mocks the inhabitants' self-centered certainty about their place in the universe.
+
+C118
+Question: What kind of danger does Cupid represent?
+A: Cupid represents a danger that can strike people without their deliberately welcoming it.
+B: Cupid represents the danger of trusting someone whom one has welcomed and helped.
+
+C102
+Question: What does the focus on the king's son chiefly communicate?
+A: The focus celebrates the prince's personal resolution in pursuing the bell.
+B: The focus exposes the preference given to a privileged traveler over the poor boy.
+
+C112
+Question: How does the scene present aristocratic status?
+A: The scene treats noble birth as a serious reason to regard a contestant as suitable.
+B: The scene ridicules the shallow and absurd claims used to establish noble status.
+
+C103
+Question: What matters most to the tree during the celebration?
+A: The tree is chiefly distressed at being excluded from the children's enjoyment.
+B: The tree is chiefly anxious that its decorated appearance will be damaged.
+
+C113
+Question: How should the tame Raven's help to Gerda be understood?
+A: The Raven helps Gerda out of sympathy for her distress.
+B: The Raven's help is conditioned by an expectation of future gratitude.
+
+C120
+Question: How should Night's demand that the mother sing be understood?
+A: Night makes the mother revisit the loving bond with her child before continuing.
+B: Night cruelly delays the mother while her child is being taken away.
+

@@ -1,0 +1,587 @@
+{
+  "preference": {
+    "C116": {
+      "passage_id": "P01",
+      "A": "A",
+      "B": "B"
+    },
+    "C105": {
+      "passage_id": "P02",
+      "A": "B",
+      "B": "A"
+    },
+    "C108": {
+      "passage_id": "P03",
+      "A": "B",
+      "B": "A"
+    },
+    "C119": {
+      "passage_id": "P04",
+      "A": "B",
+      "B": "A"
+    },
+    "C103": {
+      "passage_id": "P05",
+      "A": "B",
+      "B": "A"
+    },
+    "C110": {
+      "passage_id": "P06",
+      "A": "B",
+      "B": "A"
+    },
+    "C112": {
+      "passage_id": "P07",
+      "A": "A",
+      "B": "B"
+    },
+    "C101": {
+      "passage_id": "P08",
+      "A": "A",
+      "B": "B"
+    },
+    "C102": {
+      "passage_id": "P09",
+      "A": "A",
+      "B": "B"
+    },
+    "C106": {
+      "passage_id": "P10",
+      "A": "A",
+      "B": "B"
+    },
+    "C104": {
+      "passage_id": "P11",
+      "A": "A",
+      "B": "B"
+    },
+    "C120": {
+      "passage_id": "P12",
+      "A": "B",
+      "B": "A"
+    },
+    "C115": {
+      "passage_id": "P13",
+      "A": "A",
+      "B": "B"
+    },
+    "C111": {
+      "passage_id": "P14",
+      "A": "B",
+      "B": "A"
+    },
+    "C114": {
+      "passage_id": "P15",
+      "A": "A",
+      "B": "B"
+    },
+    "C109": {
+      "passage_id": "P16",
+      "A": "B",
+      "B": "A"
+    },
+    "C118": {
+      "passage_id": "P17",
+      "A": "B",
+      "B": "A"
+    },
+    "C117": {
+      "passage_id": "P18",
+      "A": "B",
+      "B": "A"
+    },
+    "C107": {
+      "passage_id": "P19",
+      "A": "A",
+      "B": "B"
+    },
+    "C113": {
+      "passage_id": "P20",
+      "A": "A",
+      "B": "B"
+    }
+  },
+  "items": {
+    "I1007": {
+      "passage_id": "P03",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1050": {
+      "passage_id": "P19",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1016": {
+      "passage_id": "P08",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1056": {
+      "passage_id": "P15",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1053": {
+      "passage_id": "P13",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1068": {
+      "passage_id": "P01",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1028": {
+      "passage_id": "P14",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1067": {
+      "passage_id": "P18",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1013": {
+      "passage_id": "P10",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1038": {
+      "passage_id": "P06",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1051": {
+      "passage_id": "P12",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1048": {
+      "passage_id": "P11",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1035": {
+      "passage_id": "P02",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1001": {
+      "passage_id": "P17",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1036": {
+      "passage_id": "P20",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1054": {
+      "passage_id": "P16",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 1
+    },
+    "I1015": {
+      "passage_id": "P04",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1032": {
+      "passage_id": "P05",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1002": {
+      "passage_id": "P07",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1058": {
+      "passage_id": "P09",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 1
+    },
+    "I1006": {
+      "passage_id": "P20",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1026": {
+      "passage_id": "P06",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1040": {
+      "passage_id": "P17",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1064": {
+      "passage_id": "P07",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1080": {
+      "passage_id": "P05",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1076": {
+      "passage_id": "P09",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1044": {
+      "passage_id": "P10",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1074": {
+      "passage_id": "P01",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1070": {
+      "passage_id": "P15",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1025": {
+      "passage_id": "P19",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1075": {
+      "passage_id": "P12",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1063": {
+      "passage_id": "P04",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1065": {
+      "passage_id": "P03",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1078": {
+      "passage_id": "P16",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1019": {
+      "passage_id": "P11",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1061": {
+      "passage_id": "P08",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1021": {
+      "passage_id": "P14",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1034": {
+      "passage_id": "P02",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1010": {
+      "passage_id": "P18",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 2
+    },
+    "I1045": {
+      "passage_id": "P13",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 2
+    },
+    "I1046": {
+      "passage_id": "P06",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1041": {
+      "passage_id": "P20",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1030": {
+      "passage_id": "P16",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1066": {
+      "passage_id": "P14",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1017": {
+      "passage_id": "P09",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1079": {
+      "passage_id": "P13",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1023": {
+      "passage_id": "P19",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1049": {
+      "passage_id": "P12",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1047": {
+      "passage_id": "P07",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1005": {
+      "passage_id": "P18",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1012": {
+      "passage_id": "P17",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1072": {
+      "passage_id": "P05",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1039": {
+      "passage_id": "P08",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1037": {
+      "passage_id": "P03",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1011": {
+      "passage_id": "P04",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1062": {
+      "passage_id": "P10",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1052": {
+      "passage_id": "P01",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1071": {
+      "passage_id": "P15",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1055": {
+      "passage_id": "P11",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 3
+    },
+    "I1022": {
+      "passage_id": "P02",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 3
+    },
+    "I1042": {
+      "passage_id": "P12",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1024": {
+      "passage_id": "P08",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1004": {
+      "passage_id": "P10",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1043": {
+      "passage_id": "P17",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1018": {
+      "passage_id": "P05",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1077": {
+      "passage_id": "P03",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1014": {
+      "passage_id": "P01",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1033": {
+      "passage_id": "P02",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1003": {
+      "passage_id": "P15",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1069": {
+      "passage_id": "P18",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1009": {
+      "passage_id": "P19",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1020": {
+      "passage_id": "P04",
+      "reading": "B",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1073": {
+      "passage_id": "P20",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1027": {
+      "passage_id": "P06",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1029": {
+      "passage_id": "P14",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1008": {
+      "passage_id": "P13",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1031": {
+      "passage_id": "P16",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1059": {
+      "passage_id": "P11",
+      "reading": "A",
+      "quote_status": "real",
+      "batch": 4
+    },
+    "I1060": {
+      "passage_id": "P09",
+      "reading": "A",
+      "quote_status": "fake",
+      "batch": 4
+    },
+    "I1057": {
+      "passage_id": "P07",
+      "reading": "B",
+      "quote_status": "real",
+      "batch": 4
+    }
+  },
+  "generation_seed": 8675309
+}

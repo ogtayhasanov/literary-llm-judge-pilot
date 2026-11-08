@@ -1,0 +1,82 @@
+{
+  "P01": {
+    "A": {"real": 4, "fake": 3, "reason": "The officer's fear of being found unfit supports a personal-exposure reading, although his office also has material value."},
+    "B": {"real": 4, "fake": 3, "reason": "The description of the office as profitable supports a material-interest reading, though embarrassment also matters."}
+  },
+  "P02": {
+    "A": {"real": 5, "fake": 3, "reason": "The attendants object and the princess invokes what they owe her, strongly supporting coercion by rank."},
+    "B": {"real": 3, "fake": 2, "reason": "The princess does kiss the swineherd herself, but her demand disregards the attendants' expressed reluctance."}
+  },
+  "P03": {
+    "A": {"real": 4, "fake": 3, "reason": "The queen plans a secret test after the visitor claims to be a real princess; the intent to check her status is clear."},
+    "B": {"real": 4, "fake": 3, "reason": "The visitor reports extensive bruising, supporting a reading that royal testing imposes physical harm."}
+  },
+  "P04": {
+    "A": {"real": 4, "fake": 3, "reason": "The moon dwellers' claim to occupy the center of the universe invites a satire of self-centered certainty."},
+    "B": {"real": 4, "fake": 3, "reason": "The narrator jokes about Denmark not crossing a powerful moon, supporting a satire of political deference."}
+  },
+  "P05": {
+    "A": {"real": 5, "fake": 3, "reason": "The narration explicitly says the tree is uneasy about losing its splendor."},
+    "B": {"real": 3, "fake": 2, "reason": "The tree wonders whether it can do anything, suggesting exclusion, but the passage also emphasizes anxiety about its decorations."}
+  },
+  "P06": {
+    "A": {"real": 5, "fake": 3, "reason": "The Finland woman explicitly locates Gerda's power in her heart and innocence."},
+    "B": {"real": 3, "fake": 2, "reason": "Other beings do help Gerda, but the woman's description treats their help as evidence of Gerda's inner power, not clearly its source."}
+  },
+  "P07": {
+    "A": {"real": 3, "fake": 2, "reason": "Noble blood is offered as a qualification, but the exaggerated setting makes the literal endorsement doubtful."},
+    "B": {"real": 5, "fake": 3, "reason": "A grasshopper's inherited green uniform is a strong comic example of the scene's exaggerated claims of rank."}
+  },
+  "P08": {
+    "A": {"real": 5, "fake": 3, "reason": "The flower evokes a vivid image of the maiden, directly supporting the reading of a lasting personal bond."},
+    "B": {"real": 4, "fake": 3, "reason": "The flower evokes Danish groves, supporting an attachment to homeland alongside the personal memory."}
+  },
+  "P09": {
+    "A": {"real": 5, "fake": 3, "reason": "The narrator explicitly praises the prince's resolution and follows his determination."},
+    "B": {"real": 4, "fake": 3, "reason": "The narrator explicitly chooses to follow the prince after describing the poor boy's hardship, enabling a class-based reading."}
+  },
+  "P10": {
+    "A": {"real": 4, "fake": 3, "reason": "The imagined trumpeters announce the boy's arrival, giving the house the air of a welcoming host."},
+    "B": {"real": 3, "fake": 2, "reason": "The quote accurately describes decay, but the passage's animation also makes the house lively and welcoming."}
+  },
+  "P11": {
+    "A": {"real": 4, "fake": 3, "reason": "The parents provide an inheritance and advice, consistent with affection, even though the outcome is ironic."},
+    "B": {"real": 5, "fake": 3, "reason": "The proud imagined future of being boiled and served strongly supports irony about the family's ignorance of danger."}
+  },
+  "P12": {
+    "A": {"real": 4, "fake": 3, "reason": "Night demands songs and remains silent while the mother begs to continue, supporting a reading of an obstructive delay."},
+    "B": {"real": 4, "fake": 3, "reason": "Night remembers the mother's tears and songs, tying the delay to the bond with the child."}
+  },
+  "P13": {
+    "A": {"real": 5, "fake": 3, "reason": "The garter explicitly refuses the collar's attention, and the collar continues to approach and insult her."},
+    "B": {"real": 4, "fake": 3, "reason": "The narrator explicitly exposes the collar's false boast about possessions associated with a gentleman."}
+  },
+  "P14": {
+    "A": {"real": 4, "fake": 3, "reason": "The shadow assures the princess she is cured, and she subsequently wonders if she is; flattery plausibly affects her judgment."},
+    "B": {"real": 3, "fake": 2, "reason": "Her fondness for the stranger is explicit, but she expresses it after entertaining his explanation, so causation is uncertain."}
+  },
+  "P15": {
+    "A": {"real": 4, "fake": 3, "reason": "The match feels warm and produces a vision of a stove, supporting temporary comfort."},
+    "B": {"real": 5, "fake": 3, "reason": "The flame goes out and the stove vanishes immediately, sharply demonstrating the vision's fragility."}
+  },
+  "P16": {
+    "A": {"real": 4, "fake": 3, "reason": "Corsor is described as rising in importance and gaining transport connections, supporting a reading of development."},
+    "B": {"real": 4, "fake": 3, "reason": "The procession of Danish monarchs and historical setting supports a reading of continuity and national history."}
+  },
+  "P17": {
+    "A": {"real": 4, "fake": 3, "reason": "The poet shelters Cupid and is shot, supporting a warning about misplaced trust."},
+    "B": {"real": 5, "fake": 3, "reason": "Cupid attacks people unnoticed in everyday settings, strongly supporting the reading of unexpected intrusion."}
+  },
+  "P18": {
+    "A": {"real": 4, "fake": 3, "reason": "Karen's shoes are compared directly to the princess's shoes, supporting imitation, though she also admires their appearance."},
+    "B": {"real": 4, "fake": 3, "reason": "The passage dwells on how beautiful and shiny the shoes are, supporting visual attraction as a motive."}
+  },
+  "P19": {
+    "A": {"real": 3, "fake": 2, "reason": "The watchman is willing to leave his body behind, but that does not necessarily mean he is dissatisfied with earthly existence."},
+    "B": {"real": 5, "fake": 3, "reason": "The watchman explicitly wants to examine the celestial objects more closely, directly supporting curiosity."}
+  },
+  "P20": {
+    "A": {"real": 4, "fake": 3, "reason": "The tame Raven calls Gerda's story affecting before helping, consistent with sympathy."},
+    "B": {"real": 3, "fake": 2, "reason": "The Raven asks for future gratitude, but does not clearly make that a condition for providing help."}
+  }
+}
