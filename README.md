@@ -18,7 +18,7 @@ The mean score was 3.725 for exact quotations and 2.600 for altered quotations. 
 1. Select 20 passages from 18 tales in the English Project Gutenberg edition of Andersen's fairy tales.
 2. Construct one question and two competing readings for each passage. Each reading has an exact quotation and an altered quotation: 20 x 2 x 2 = 80 items.
 3. Ask the judge which reading it prefers using **only the question and two claims**, without the passage or quotations. The choice is forced.
-4. In four scoring batches, present each passage once per batch, with one reading and one quotation. The responses were collected through separate new chats as instructed; the model version and chat setup are reported by the user rather than verified from API logs.
+4. In four scoring batches, present each passage once per batch, with one reading and one quotation. I collected the responses in separate new chats. The model version comes from the label shown in the chat.
 5. Calculate the two paired gaps above. Bootstrap over the 20 passages; the analysis also reports a sensitivity interval clustered by tale.
 
 The altered quotations are mostly paraphrases or small wording changes. Failure to match word-for-word does **not** mean that the altered quotation expresses a factually false claim.
@@ -28,7 +28,7 @@ The altered quotations are mostly paraphrases or small wording changes. Failure 
 - The evidence gap partly measures response to a citation defect: the scoring rubric explicitly asked for quotation accuracy and linked the top score to an accurate quotation.
 - The preference gap holds **quotation type** constant, not the actual text or quality of the evidence. A preferred reading can genuinely be better supported.
 - Preference was selected without the passage and cannot be assumed to represent an informed literary interpretation. No expert assessed whether the two readings are equally defensible.
-- This is one model, one set of model-generated cases, 20 passages, and user-pasted chat output. The model label provided by the user was **Claude Opus 5.5 medium**; a model snapshot, generation settings, response IDs, and raw provider logs were not available.
+- This is one model, one set of model-generated cases, 20 passages, and chat output that I pasted in. The model shown in the chat was **Claude Opus 5.5 medium**. I did not have a model snapshot, generation settings, response IDs, or raw provider logs.
 - The archived preliminary ChatGPT scores were produced by the same conversation that created the cases and saw their labels. They are **not** a second blinded judge and are excluded from the main results.
 
 See [the analysis report](README_Claude_Results.md) and [the protocol and limitations](docs/protocol.md).
@@ -66,4 +66,4 @@ The word `PRIVATE` in the answer-key filename means **withhold it from the judge
 
 Passages come from [Andersen's Fairy Tales, Project Gutenberg eBook 1597](https://www.gutenberg.org/ebooks/1597), source text [`1597-0.txt`](https://www.gutenberg.org/files/1597/1597-0.txt), retrieved on 8 November 2026. The SHA-256 of the original archive, from the start marker through the end marker and its final newline, is `b68136f61260d1b865c45ba7c27a0ec616eb319d8339dbcb7564fcaae0ef1470`. Project Gutenberg identifies this edition as public domain in the United States. Both bundled copies include the notice and full license outside the archived text.
 
-Questions and readings were created with ChatGPT during the pilot. The scoring output was pasted from chat by the researcher. No license for the repository's original code or constructed data has been specified.
+Questions and readings were created with ChatGPT during the pilot. I pasted the scoring output from the chat. No license for the repository's original code or constructed data has been specified.

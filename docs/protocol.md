@@ -14,7 +14,7 @@ The preference prompt presents only the question and the two reading claims, in 
 
 The 80 items were randomized into four prompts. Each prompt contains one item for each of the 20 passages, so within a scoring chat the judge does not see multiple versions of the same passage. Each item includes its passage, question, single reading, and cited quotation. The instructions ask for a 1-5 rating of support, taking both relevance and quote accuracy into account. The inputs do not label a quotation as exact or altered. The scoring rubric allows a non-verbatim quote to receive a partial score when the reading has other support in the passage.
 
-The user identified the judge as Claude Opus 5.5 medium and was instructed to use a fresh chat for the preference task and each scoring batch. Five responses were pasted into the conversation and recorded as CSV. The exact model identifier, sampling settings, response IDs, and separation of chat sessions cannot be independently established from the pasted outputs. The final batch outputs were separated at the repeated CSV header; scores and rationales were retained.
+I used Claude Opus 5.5 medium as the judge, with a fresh chat for the preference task and each scoring batch. Five responses were pasted into the conversation and recorded as CSV. The exact model identifier, sampling settings, response IDs, and separation of chat sessions cannot be independently established from the pasted outputs. The final batch outputs were separated at the repeated CSV header; scores and rationales were retained.
 
 ## Paired measures
 

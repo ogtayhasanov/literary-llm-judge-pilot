@@ -2,7 +2,7 @@
 
 ## What was run
 
-One judge, identified by the user as Claude Opus 5.5 medium, made 20 forced-choice preferences and scored 80 items. The model version and separate-chat setup are self-reported and cannot be independently verified from the pasted text. The experiment used 20 selected passages from 18 Andersen tales, two readings per passage and one exact and one altered quote per reading. The cases were authored by ChatGPT in an earlier conversation. The preference prompt contained only questions and two claims, with no passage or quotations. The four score prompts each showed 20 passages, with one condition per passage in each prompt. The user was instructed to use a separate new chat for each batch; no API calls were used.
+One judge, Claude Opus 5.5 medium as shown in the chat, made 20 forced-choice preferences and scored 80 items. The model version and separate-chat setup are self-reported and cannot be independently verified from the pasted text. The experiment used 20 selected passages from 18 Andersen tales, two readings per passage and one exact and one altered quote per reading. The cases were authored by ChatGPT in an earlier conversation. The preference prompt contained only questions and two claims, with no passage or quotations. The four score prompts each showed 20 passages, with one condition per passage in each prompt. I used a separate new chat for each batch. I ran the experiment entirely in chat.
 
 Code verifies that all 40 real quotations occur as exact substrings of the whitespace-normalized displayed passages, and all 40 altered quotations do not. Altered quotations are mostly paraphrases or small wording changes; a non-verbatim quote is not necessarily a false claim about the story.
 
@@ -32,7 +32,7 @@ The earlier ChatGPT self-judgment was not blinded and must not be described as a
 
 - `claude_80_items_full.csv`: all 80 passages, claims, quotes, condition labels, scores and rationales.
 - `claude_20_passage_contrasts.csv`: paired ratings and per-passage contrasts.
-- `inputs/`: user-pasted preference and score CSVs and the five prompts.
+- `inputs/`: the preference and score CSVs I pasted from the chats, along with the five prompts.
 - `source_data/cases.json`: original 20 cases and selection metadata.
 - `source_data/second_judge_answer_key_PRIVATE.json`: mapping from blind IDs to conditions. Do not disclose to any further blinded judge.
 - `source_data/andersen_1597.txt`: Project Gutenberg source, https://www.gutenberg.org/files/1597/1597-0.txt. Text was whitespace-normalized before selecting passages; the source SHA-256 is in cases.json.
