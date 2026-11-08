@@ -2,7 +2,7 @@
 
 ## Selection and construction
 
-The source is the full English Project Gutenberg eBook 1597, included with its original notices in `source_data/andersen_1597.txt`. Before extracting passages, all runs of whitespace within each tale were normalized to single spaces. A deterministic selection using Python's pseudorandom generator and seed `20261108` took one paragraph-starting passage from each of the 18 tales and a second passage from each of two longer tales. Passage lengths are 285-320 whitespace-separated words. There was no expert review of passage selection.
+The source is the full English Project Gutenberg eBook 1597, included with its notice and full license in `source_data/andersen_1597.txt`. Before extracting passages, all runs of whitespace within each tale were normalized to single spaces. A deterministic selection using Python's pseudorandom generator and seed `20261108` took one paragraph-starting passage from each of the 18 tales and a second passage from each of two longer tales. Passage lengths are 285-320 whitespace-separated words. There was no expert review of passage selection.
 
 For each passage, ChatGPT constructed an open question, readings A and B, and one quotation per reading that appears exactly in the displayed passage. It also constructed one altered quote per reading. Within a reading, the claim is identical in the two quote conditions. The automated checks require the exact quote to occur and the altered quote not to occur as substrings of the normalized displayed passage. The construction scripts and original generated cases are in `generation/`.
 

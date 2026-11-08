@@ -51,7 +51,7 @@ The analysis checks the identifiers, four conditions per passage, scores, and ex
 | `inputs/` | The 20 preference choices, four batches of 20 scores and rationales, and the blinded prompts. |
 | `source_data/cases.json` | The 20 normalized passages, questions, readings, and exact/altered quotations. |
 | `source_data/second_judge_answer_key_PRIVATE.json` | Mapping from blind IDs to readings and quote conditions; do not provide this file to a new judge. |
-| `source_data/andersen_1597.txt` | The unmodified source eBook, including its Project Gutenberg license text. |
+| `source_data/andersen_1597.txt` | The archived story text with the Project Gutenberg notice and full license. |
 | `analyze_claude.py` | Standard-library analysis and bootstrap code. |
 | `claude_80_items_full.csv` | All items with passages, scores, rationales, and decoded conditions. |
 | `claude_20_passage_contrasts.csv` | Paired scores and contrasts for each passage. |
@@ -64,6 +64,6 @@ The word `PRIVATE` in the answer-key filename means **withhold it from the judge
 
 ## Sources and reuse
 
-Passages come from [Andersen's Fairy Tales, Project Gutenberg eBook 1597](https://www.gutenberg.org/ebooks/1597), source text [`1597-0.txt`](https://www.gutenberg.org/files/1597/1597-0.txt), retrieved on 8 November 2026. The source SHA-256 is `b68136f61260d1b865c45ba7c27a0ec616eb319d8339dbcb7564fcaae0ef1470`. Gutenberg identifies this edition as public domain in the United States; the archived text retains the Project Gutenberg license and notices.
+Passages come from [Andersen's Fairy Tales, Project Gutenberg eBook 1597](https://www.gutenberg.org/ebooks/1597), source text [`1597-0.txt`](https://www.gutenberg.org/files/1597/1597-0.txt), retrieved on 8 November 2026. The SHA-256 of the original archive, from the start marker through the end marker and its final newline, is `b68136f61260d1b865c45ba7c27a0ec616eb319d8339dbcb7564fcaae0ef1470`. Project Gutenberg identifies this edition as public domain in the United States. Both bundled copies include the notice and full license outside the archived text.
 
 Questions and readings were created with ChatGPT during the pilot. The scoring output was pasted from chat by the researcher. No license for the repository's original code or constructed data has been specified.

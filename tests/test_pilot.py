@@ -22,7 +22,13 @@ class PilotDataTests(unittest.TestCase):
 
     def test_source_and_quotation_integrity(self):
         source = (ROOT / 'source_data' / 'andersen_1597.txt').read_bytes()
-        self.assertEqual(hashlib.sha256(source).hexdigest(), self.cases['source_sha256'])
+        self.assertEqual(source, (ROOT / 'generation' / 'andersen_1597.txt').read_bytes())
+        start = source.index(b'*** START OF THE PROJECT GUTENBERG EBOOK 1597 ***')
+        end_marker = b'*** END OF THE PROJECT GUTENBERG EBOOK 1597 ***\n'
+        end = source.index(end_marker, start) + len(end_marker)
+        self.assertIn(b'https://www.gutenberg.org/policy/license.html', source[:start])
+        self.assertIn(b'START: FULL LICENSE', source[end:])
+        self.assertEqual(hashlib.sha256(source[start:end]).hexdigest(), self.cases['source_sha256'])
         cases = self.cases['cases']
         self.assertEqual(len(cases), 20)
         self.assertEqual(len({case['id'] for case in cases}), 20)
